@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 张仕君的博客
+subtitle: 技术与思考
+description: 与世界联系并输出自己的价值
+keywords: “技术 思考”
+author: 张仕君
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.chniajun.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -43,9 +43,10 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -123,3 +124,9 @@ live2d:
     show: false
   react:
     opacity: 0.7
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: true    # default false
+  custom_css:
