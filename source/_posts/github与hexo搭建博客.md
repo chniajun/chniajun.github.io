@@ -7,8 +7,8 @@ mathjax: true
 date: 2021-05-30 21:10:55
 password:
 summary:
-tags:
-categories:
+tags: hexo
+categories: 教程
 ---
 **本文内容源自网络和个人修改**
 # 1、git
