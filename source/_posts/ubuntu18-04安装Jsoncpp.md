@@ -68,7 +68,15 @@ ofs << s_writer.write(root);
 ofs.close();
 ```
 
-
+结果：
+```
+{
+   "center_point" : {
+      "x" : 12.034999847412109,
+      "y" : 14.795000076293945
+   }
+}
+```
 
 CSDN上有个大佬写的博文，[Json的使用方法](https://blog.csdn.net/yc461515457/article/details/52749575?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control#commentBox)
 
