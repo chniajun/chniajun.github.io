@@ -8,7 +8,7 @@ date: 2021-06-10 17:22:44
 password:
 summary:
 tags: git
-categories: 知识库
+categories: knowledge
 ---
 
 # 删除本地和云端分支，解决删除git远程分支后依然存在的问题
